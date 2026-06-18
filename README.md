@@ -62,5 +62,3 @@ java/
 * [ ] Queue
 * [ ] Trees
 * [ ] Graphs
-
-⭐ Consistency over perfection.
