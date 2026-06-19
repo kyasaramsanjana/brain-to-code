@@ -1,0 +1,23 @@
+Before code, understand: a variable is just a box that stores a value.
+Concept — English first
+English to code translation:
+"Store the number 5" → int num = 5;
+"Store the word Sanjana" → String name = "Sanjana";
+"Store true or false" → boolean pass = true;
+
+Key insight: Every piece of data has a TYPE. A number is int. A word is String. True/false is boolean.
+________________________________
+English → Code translation
+English
+Store my age as 20                int age=20
+
+Store my name                     String name = "Sanjana";
+
+Check if I passed                 boolean passed = true;
+_______________________________
+public class Variables { public static void main(String[] args) 
+{ // int = whole numbers int age = 20; int marks = 85; 
+// String = text (always in "") String name = "Sanjana"; String college = "CMRCET"; 
+// boolean = only true or false boolean isPassed = true; 
+// double = decimal numbers double cgpa = 8.5; System.out.println(name + " age: " + age); 
+System.out.println("CGPA: " + cgpa); } }
