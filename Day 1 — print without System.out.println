@@ -1,0 +1,29 @@
+sir's challenge: print without the usual method. Understand HOW printing works.
+Concept — English first
+The rule: sir said print Hello World without printf/println. This trains me to understand that printing is just a concept — there are MULTIPLE ways to output text. println is just one tool.
+
+Alternative ways to print in Java: using System.out.print(), System.out.write(), PrintStream, StringBuilder — all do the same thing but yet differently.
+_________________________________________________________________________________________________________________________________
+
+English → Code translation
+English
+Print text to screen
+
+Print with new line
+
+Print character by character
+_________________________________________________________________________________________________________________________________
+Code
+System.out.print("Hello World");
+
+System.out.println("Hello");
+
+char[] c = {'H','i'};
+System.out.write(c,0,2);
+_________________________________________________________________________________________________________________________________
+Full code for today
+public class HelloWorld { public static void main(String[] args)
+{ // Way 1: normal (you know this) System.out.println("Hello World"); 
+// Way 2: without ln (no newline) System.out.print("Hello World\n"); 
+// Way 3: char by char (no println at all!) char[] msg = {'H','e','l','l','o'}; for (char c : msg) { System.out.write(c); 
+// prints 1 char } System.out.flush(); // force output } }
