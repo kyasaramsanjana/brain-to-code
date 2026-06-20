@@ -1,0 +1,123 @@
+The one rule I will follow forever
+The English → Algorithm → Code bridge
+Before writing a single line of code, I write English first. Then I break it into steps. Then I write code. Every. Single. Time. This is the rule that fixes my biggest problem — the gap between what I understand and what I can write.
+STEP 1
+Say it in English like you're explaining to your friend
+→
+STEP 2
+Write numbered steps like instructions
+→
+STEP 3
+Now convert those steps into Java code
+Concept 1 — the skeleton (every java program needs this)
+How I understand it
+Think of a Java program like my college building. The building itself is the class. Inside the building there's one main entrance — that's the main method. Whenever Java runs my code, it always enters from that main entrance. Everything I want to happen, I write inside that entrance.
+Real life version: I tell my younger sister "go to the kitchen, take a glass, pour water, bring it to me." Those are my instructions. In Java, I'm telling the computer the same thing — step by step instructions — inside main().
+public class MyFirstProgram {          // This is the building (class)
+
+    public static void main(String[] args) {  // This is the entrance (main)
+
+        // I write my instructions here
+
+    }
+}
+Common mistake beginners make
+They forget to close curly braces }. Every opening brace { must have a closing brace }. Think of them like opening and closing a zip bag.
+Concept 2 — printing (sir's challenge: print without printf)
+How I understand it
+My sir said "print Hello World without printf." Here's what he meant — printf is a C language thing. In Java we don't have printf (well, we do but we don't use it as default). In Java, printing means using System.out.println(). That's the Java way of saying "show this on screen."
+System.out.println = "Hey system! Use the output! Print this line!"
+That's literally what those words mean broken down. System = the computer. out = output. println = print a line.
+System.out.println("Hello World");   // prints and goes to next line
+System.out.print("Hello");         // prints but stays on same line
+System.out.println(42);              // can also print numbers
+Practice 2A — using the bridge
+Problem: Print my name on screen
+E
+English: I want my name "Sanjana" to appear on the screen
+A
+Algorithm: Step 1 — use the print command. Step 2 — put my name inside quotes
+C
+Code (write this yourself after reading above):
+public class PrintName {
+    public static void main(String[] args) {
+        System.out.println("Sanjana");
+        System.out.println("CMR College");
+        System.out.println("Hyderabad");
+    }
+}
+Concept 3 — variables (boxes with labels)
+How I understand it
+You know how in our house we have dabba for rice, dabba for dal, dabba for sugar? Each dabba has a label. A variable is exactly that. A labelled box inside the computer's memory. I tell Java: "create a box, call it 'age', put the number 20 inside it." Done.
+int age = 20;
+int = what kind of box (for whole numbers)
+age = the label on the box
+20 = what's inside the box
+; = I'm done with this instruction (full stop in English)
+int
+Box for whole numbers only. Ex: 5, 20, -3, 100
+double
+Box for decimal numbers. Ex: 87.5, 3.14, 9.8
+String
+Box for text (always in quotes). Ex: "Sanjana", "Hello"
+boolean
+Box that holds only true or false. Nothing else.
+// Creating boxes (declaring variables)
+int age = 20;
+double marks = 87.5;
+String name = "Sanjana";
+boolean isPass = true;
+
+// Showing what's inside the box
+System.out.println("My name is: " + name);   // + joins text and variable
+System.out.println("My age is: " + age);
+System.out.println("My marks: " + marks);
+Mistake I must not make
+Writing String with small 's' like string. Java is case-sensitive. String starts with capital S always. int, double, boolean are all small letters. Only String is capital.
+The correct way
+String name = "Sanjana"; ← capital S always
+int age = 20; ← small i always
+Concept 4 — basic math (java as a calculator)
+How I understand it
+Java can do math. Just like a calculator. I store numbers in boxes, then do operations on them. The result goes into a new box. Simple.
+int a = 10;
+int b = 5;
+
+int sum = a + b;        // 15
+int diff = a - b;       // 5
+int product = a * b;    // 50
+int quotient = a / b;   // 2
+int remainder = a % b;  // 0 (nothing left after dividing)
+
+System.out.println("Sum = " + sum);
+System.out.println("Remainder = " + remainder);
+% (modulo) is very important in coding. It tells me what's left after division.
+10 % 3 = 1 (because 10 ÷ 3 = 3, and 1 is left over)
+I'll use this later to check if a number is even or odd (any number % 2 == 0 means even).
+Concept 5 — taking input from user
+How I understand it
+Till now I was hardcoding values like int age = 20. But what if I want the user to type their own age? I need Scanner. Think of Scanner as ears — it listens to what the user types.
+import java.util.Scanner;  // bring Scanner tool into my program
+
+public class TakeInput {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);  // create the ears
+
+        System.out.print("Enter your name: ");
+        String name = sc.nextLine();       // listen for text
+
+        System.out.print("Enter your age: ");
+        int age = sc.nextInt();            // listen for a number
+
+        System.out.println("Hello " + name + "! You are " + age + " years old.");
+    }
+}
+sc.nextLine()
+Read a full line of text (words, sentences)
+sc.nextInt()
+Read a whole number from user
+sc.nextDouble()
+Read a decimal number from user
+import
+Bring an outside tool into my program
