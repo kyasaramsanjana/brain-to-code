@@ -1,64 +1,57 @@
-# Java Learning Journey ☕
+# Java Programming & Problem Solving ☕
 
 Hi, I'm Sanjana 👋
 
-This repository contains my Java learning journey from beginner to advanced.
+This repository contains my journey of learning Java programming and improving my problem-solving skills from scratch to advanced.
 
 I will regularly upload:
 
-* Java basics
-* Object Oriented Programming (OOP)
-* Problem solving
-* Data Structures and Algorithms (DSA)
-* LeetCode solutions
-* Notes and explanations
-* Practice programs
+- Java fundamentals
+- Problem-solving concepts
+- Notes and explanations
+- Practice programs
+- Small projects
 
-## Repository Structure
+## Repository Structure 📂
 
 ```text
 java/
 
 ├── Java-Basics/
-├── OOP/
-├── DSA/
-│   ├── Arrays/
-│   ├── Strings/
-│   ├── LinkedList/
-│   ├── Stack/
-│   ├── Queue/
-│   ├── Trees/
-│   └── Graphs/
-└── LeetCode-Solutions/
+├── Problem-Solving/
+├── Practice-Programs/
+├── Notes/
+└── Projects/
 ```
 
 ## Goals 🎯
 
-* Master Java fundamentals
-* Build strong problem-solving skills
-* Solve LeetCode problems consistently
-* Prepare for internships and placements
-* Build a professional GitHub profile
+- Learn Java from scratch to advanced
+- Build strong programming fundamentals
+- Improve logical thinking
+- Develop problem-solving skills
+- Practice consistently
+- Build a professional GitHub profile
 
 ## Progress Tracker ✅
 
-### Java
+### Java Fundamentals
 
-* [ ] Variables
-* [ ] Data Types
-* [ ] Operators
-* [ ] Loops
-* [ ] Functions
-* [ ] Arrays
-* [ ] Strings
-* [ ] OOP
+- [ ] Variables
+- [ ] Data Types
+- [ ] Operators
+- [ ] Input & Output
+- [ ] Conditional Statements
+- [ ] Loops
+- [ ] Functions
+- [ ] Arrays
+- [ ] Strings
+- [ ] Exception Handling
 
-### DSA
+## Daily Goal 🚀
 
-* [ ] Arrays
-* [ ] Strings
-* [ ] Linked List
-* [ ] Stack
-* [ ] Queue
-* [ ] Trees
-* [ ] Graphs
+Learn → Understand → Practice → Improve
+
+---
+
+⭐ Building strong programming and problem-solving skills one step at a time using Java.
